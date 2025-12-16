@@ -11,4 +11,10 @@ public class HomeController {
 
         return "hicicd 1216";
     }
+
+    @GetMapping("/hicicd2")
+    public String hicicd2(){
+
+        return "새로운 개발";
+    }
 }
