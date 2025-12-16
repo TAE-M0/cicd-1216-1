@@ -17,4 +17,10 @@ public class HomeController {
 
         return "새로운 개발";
     }
+
+    @GetMapping("/hicicd3")
+    public String hicicd3(){
+
+        return "새로운 개발 cicd 적용";
+    }
 }
